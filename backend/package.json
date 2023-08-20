@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "test_data": "node test_data/test_data.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.3.7",
+    "cors": "^2.8.5",
+    "crypto-es": "^1.2.7",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "handlebars": "^4.7.7",
+    "http-status": "^1.6.2",
+    "mocha": "^10.2.0",
+    "moment": "^2.29.4",
+    "mongodb": "^5.3.0",
+    "mongoose": "^7.1.0",
+    "mongoose-permissions": "^1.0.0",
+    "nodemon": "^2.0.21",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "puppeteer": "^20.4.0",
+    "qrcode": "^1.5.3",
+    "supertest": "^6.3.3",
+    "underscore": "^1.13.6"
+  }
+}

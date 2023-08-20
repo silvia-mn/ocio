@@ -1,0 +1,128 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+a {
+  color: #666;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+h4 {
+  margin-bottom: 30px;
+}
+
+h1,
+h2,
+h4 {
+  text-align: center;
+}
+
+.Payment-payment {
+  padding: 30px;
+}
+
+form {
+  margin: 30px auto 0;
+  max-width: 400px;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-actions {
+  margin-top: 15px;
+}
+
+.Payment-cards {
+  margin: 0 auto;
+  max-width: 1280px;
+  text-align: center;
+}
+
+.Payment-cards-list {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Payment-cards-list > * {
+  transform: scale(0.8);
+  margin-bottom: 30px !important;
+}
+
+.Payment-highlight {
+  font-family: serif;
+  margin: 15px auto 0;
+  max-width: 300px;
+}
+
+.Payment-highlight > div {
+  padding-left: 40px;
+}
+
+.Payment-badges {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Payment-badges a {
+  display: block;
+}
+
+.Payment-badges a + a {
+  margin-top: 18px;
+}
+
+.github__btn {
+  align-items: center;
+  background-color: #ccc;
+  border-radius: 4px;
+  color: #444;
+  display: flex;
+  line-height: 1;
+  padding: 8px 12px;
+}
+
+.github__btn:hover {
+  color: #444;
+  text-decoration: none;
+}
+
+.github__btn img {
+  display: inline-block;
+  height: 28px;
+  margin-right: 8px;
+}
+
+.Payment-credits {
+  background-color: #000;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+}
+
+.Payment-credits a {
+  color: #fff;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 600px) {
+  .Payment-badges {
+    flex-direction: row;
+  }
+
+  .Payment-badges a + a {
+    margin-top: 0;
+    margin-left: 18px;
+  }
+}
