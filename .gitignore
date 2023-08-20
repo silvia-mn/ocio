@@ -1,0 +1,6 @@
+backend/node_modules/
+data
+frontend/node_modules/
+to_pdf/node_modules/
+backend/.env.local
+frontend/.env.local
